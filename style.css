@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+body.home-page {
+    background-image: url('Foto/Sering-Dikira-Sama-8-Perbedaan-Jeruk-Pamelo-Khas-Pati-dengan-Jeruk-Bali.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body:not(.home-page) {
+    background-color: #FFA500; 
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.9); 
+    color: #e9de14;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.logo-text h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.logo-text p {
+    font-size: 0.9em;
+    margin: 0;
+    color: #e0e0e0;
+}
+
+/* Styling Navigasi */
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.profile-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border: 3px solid #FFB74D; 
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+}
+
+.profile-container h2 {
+    color: #4CAF50; 
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.profile-container p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.mission, .vision, .values {
+    background-color: #FAFAFA;
+    padding: 20px;
+    margin-top: 25px;
+    border-left: 5px solid #4CAF50; 
+    border-radius: 10px;
+    text-align: left;
+}
+
+.mission h3, .vision h3, .values h3 {
+    color: #ff8d22; 
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.values ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.values ul li {
+    font-size: 1.1em;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.values ul li:last-child {
+    border-bottom: none; 
+}
+
+
+.home-content {
+    text-align: center;
+    padding: 100px 20px;
+    color: #ffcf30;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+.profile-content, .product-content, .suggestion-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    margin: 40px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border: 2px solid #ccc; 
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1em;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-content h2, .product-content h2, .suggestion-content h2,
+.profile-content p, .product-content p, .suggestion-content p {
+    margin: 10px;
+}
+
+.profile-content h2 {
+    color: #4CAF50; 
+}
+
+.product-content h2 {
+    color: #FFA500; 
+}
+
+.suggestion-content h2 {
+    color: #FF4500; 
+}
